@@ -5,7 +5,7 @@ Here is the source of our Dataset: https://www.kaggle.com/zhiruo19/covid19-sympt
 
 1999 Patients information is available here with 6 attributes. The attributes are: - fever, bodypain, age, runnynose, diffbreath, infected
 
-*Step 1: Data Preparation:* We will use Covid-19 symptoms classification dataset from Kaggle created by Zhi Ruo which is publicly available. Whether a patient is covid-19 positive or negative is the goal of this algorithm. To accomplish this we are going to use a machine learning classification algorithm so that it can predict the ultimate class of unknown input.
+* Step 1: Data Preparation: * We will use Covid-19 symptoms classification dataset from Kaggle created by Zhi Ruo which is publicly available. Whether a patient is covid-19 positive or negative is the goal of this algorithm. To accomplish this we are going to use a machine learning classification algorithm so that it can predict the ultimate class of unknown input.
 
 We will also check if there are any missing or null data points in the dataset. Different types of encoding methods are used to convert categorical data. As all the attributes of this dataset are numeric, we do not have to perform this task. We will use the matplotlib library to visualize the different features of the data. Most of the dataset will contain highly varying features in magnitudes, units, and range. As machine learning methods use Euclidean distance in their calculations, we have to use the scaling method to bring all features to the same level of magnitudes. That is why, we will transform our data so that it can fit within a range, like 0 – 1 or 0 – 100.
 
